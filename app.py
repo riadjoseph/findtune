@@ -8,14 +8,21 @@ import streamlit as st
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy.exceptions import SpotifyException
+import toml
 
 # 1. PAGE CONFIG
 st.set_page_config(page_title="🎵 TuneWeaver MVP", layout="wide")
 
 # 2. LOAD CREDENTIALS
-load_dotenv()
-CLIENT_ID = st.secrets.get("SPOTIPY_CLIENT_ID", os.getenv("SPOTIPY_CLIENT_ID"))
-CLIENT_SECRET = st.secrets.get("SPOTIPY_CLIENT_SECRET", os.getenv("SPOTIPY_CLIENT_SECRET"))
+
+config_path = "config.toml"
+if os.path.exists(config_path):
+    config = toml.load(config_path)
+    CLIENT_ID = config.get("spotify", {}).get("SPOTIPY_CLIENT_ID")
+    CLIENT_SECRET = config.get("spotify", {}).get("SPOTIPY_CLIENT_SECRET")
+else:
+    CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID")
+    CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
 
 if not CLIENT_ID or not CLIENT_SECRET:
     st.error("Spotify credentials not found—set SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET.")
