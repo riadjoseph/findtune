@@ -5,7 +5,6 @@ import time
 import urllib.parse
 
 import streamlit as st
-from dotenv import load_dotenv
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy.exceptions import SpotifyException
