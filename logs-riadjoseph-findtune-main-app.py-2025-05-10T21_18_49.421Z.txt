@@ -1,0 +1,316 @@
+
+[     UTC     ] Logs for findtune.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[21:12:05] 🚀 Starting up repository: 'findtune', branch: 'main', main module: 'app.py'
+[21:12:05] 🐙 Cloning repository...
+[21:12:06] 🐙 Cloning into '/mount/src/findtune'...
+
+[21:12:06] 🐙 Cloned repository!
+[21:12:06] 🐙 Pulling code changes from Github...
+[21:12:06] 📦 Processing dependencies...
+Check if streamlit is installed
+cat: /mount/admin/install_path[2025-05-10 21:12:06.778040] : No such file or directory
+
+──────────────────────────────── Installing Streamlit ──────────────────────────────────
+
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+Resolved 37 packages in 361ms
+Prepared 37 packages in 1.26s
+Installed 37 packages in 66ms
+ + altair[2025-05-10 21:12:08.538719] ==5.5.0
+ + attrs==25.3.0
+ + blinker==1.9.0
+ + cachetools==5.5.2
+ + certifi==2025.4.26
+ + charset-normalizer==3.4.2
+ + click==8.1.8
+ + gitdb==4.0.12
+ + gitpython==3.1.44
+ + idna==3.10
+ + jinja2==3.1.6
+ + jsonschema==4.23.0
+ + jsonschema-specifications==2025.4.1
+ + markupsafe==3.0.2
+ + narwhals==1.38.2
+ + numpy==[2025-05-10 21:12:08.538956] 2.2.5
+ + packaging==24.2
+ + pandas==2.2.3
+ + pillow==11.2.1
+ + protobuf==6.30.2
+ + pyarrow==20.0.0
+ + pydeck==0.9.1
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + referencing[2025-05-10 21:12:08.539130] ==0.36.2
+ + requests==2.32.3
+ + rpds-py==0.24.0
+ + six==1.17.0
+ + smmap==5.0.2
+ + streamlit==1.45.0
+ +[2025-05-10 21:12:08.539278]  tenacity==9.1.2
+ + toml==0.10.2
+ + tornado==6.4.2
+ + typing-extensions==4.13.2
+ + tzdata==2025.2
+ + urllib3==2.4.0
+ +[2025-05-10 21:12:08.539417]  watchdog==6.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[21:12:09] 📦 Processed dependencies!
+cat: /mount/admin/install_path: No such file or directory
+
+
+
+2025-05-10 21:12:14.856 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[21:12:49] 🐙 Pulling code changes from Github...
+2025-05-10 21:12:50.334 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[21:12:50] 📦 Processing dependencies...
+[21:12:50] 📦 Processed dependencies!
+2025-05-10 21:12:50.378 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[21:12:51] 🔄 Updated app!
+[21:14:34] 🐙 Pulling code changes from Github...
+2025-05-10 21:14:34.703 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[21:14:34] 📦 Processing dependencies...
+[21:14:34] 📦 Processed dependencies!
+[21:14:36] 🔄 Updated app!
+2025-05-10 21:15:16.166 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:07.456 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[21:17:07] ❗️ 
+2025-05-10 21:17:07.557 503 GET /script-health-check (127.0.0.1) 102.37ms
+2025-05-10 21:17:12.449 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:12.550 503 GET /script-health-check (127.0.0.1) 103.14ms
+2025-05-10 21:17:17.444 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:17.544 503 GET /script-health-check (127.0.0.1) 101.62ms
+2025-05-10 21:17:22.454 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:22.554 503 GET /script-health-check (127.0.0.1) 102.10ms
+2025-05-10 21:17:27.466 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:27.567 503 GET /script-health-check (127.0.0.1) 103.04ms
+2025-05-10 21:17:32.446 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:32.548 503 GET /script-health-check (127.0.0.1) 104.29ms
+2025-05-10 21:17:37.447 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:37.548 503 GET /script-health-check (127.0.0.1) 102.41ms
+2025-05-10 21:17:42.464 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 648, in code_to_exec
+    exec(code, module.__dict__)
+  File "/mount/src/findtune/app.py", line 8, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[21:17:42] 🐙 Pulling code changes from Github...
+2025-05-10 21:17:42.565 503 GET /script-health-check (127.0.0.1) 102.40ms
+[21:17:42] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because only spotipy<=2.25.1 is available and you require
+      spotipy>=2.27.0, we can conclude that your requirements are
+      unsatisfiable.
+Checking if Streamlit is installed
+Found Streamlit version 1.45.0 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+Resolved 4 packages in 130ms
+Prepared 4 packages in 117ms
+Installed 4 packages in 11ms
+ + markdown-it-py==3.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.1
+ + rich==14.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit>=1.20.0 (from -r /mount/src/findtune/requirements.txt (line 1))
+  Downloading streamlit-1.45.0-py3-none-any.whl.metadata (8.9 kB)
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement spotipy>=2.27.0 (from versions: 0.1, 0.2, 2.0.1, 2.0.2, 2.1.0, 2.2.0, 2.3.0, 2.3.2, 2.3.3, 2.3.4, 2.3.5, 2.3.6, 2.3.7, 2.3.8, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.4.4, 2.5.0, 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.7.0, 2.7.1, 2.8.0, 2.9.0, 2.10.0, 2.11.0, 2.11.1, 2.11.2, 2.12.0, 2.13.0, 2.14.0, 2.15.0, 2.16.0, 2.16.1, 2.17.0, 2.17.1, 2.18.0, 2.19.0rc1, 2.19.0, 2.20.0, 2.21.0, 2.22.0, 2.22.1, 2.23.0, 2.24.0, 2.25.0, 2.25.1)
+ERROR: No matching distribution found for spotipy>=2.27.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Found Streamlit version 1.45.0 in the environment
+Installing rich for an improved exception logging
+Using standard pip install.
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:121 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:648 in code_to_exec                                     
+                                                                                
+  /mount/src/findtune/app.py:8 in <module>                                      
+                                                                                
+      5 import urllib.parse                                                     
+      6                                                                         
+      7 import streamlit as st                                                  
+  ❱   8 import spotipy                                                          
+      9 from spotipy.oauth2 import SpotifyClientCredentials                     
+     10 from spotipy.exceptions import SpotifyException                         
+     11 import toml                                                             
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'spotipy'
+2025-05-10 21:17:47.847 503 GET /script-health-check (127.0.0.1) 327.76ms
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 14.0 MB/s eta 0:00:00[2025-05-10 21:17:48.586792] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 161.5 MB/s eta 0:00:00[2025-05-10 21:17:48.598234] 
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 80.3 MB/s eta 0:00:00[2025-05-10 21:17:48.624649] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.1
+    Uninstalling Pygments-2.19.1:
+      Successfully uninstalled Pygments-2.19.1
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[21:17:51] ❗️ installer returned a non-zero exit code
+[21:18:23] 🖥 Provisioning machine...
+[21:18:29] 🎛 Preparing system...
+[21:18:34] ⛓ Spinning up manager process...
